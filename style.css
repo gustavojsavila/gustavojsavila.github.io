@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+
+/*---- Header / Nav ----*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+    width: 100%;
+}
+
+header{
+    background-image: url(/close-up-mulher-trabalhando-com-maquina-de-costura_23-2148898065.webp);
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+    
+}
+.conteudoNavPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: solid black 1px;
+    
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    display: none;
+}
+nav{
+    
+    margin-right: 40px;
+}
+
+li{
+    display: inline-block;
+}
+
+ul > li > a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+}
+ul > li > a:hover{
+    color: rgb(188, 141, 0);
+    font-size: 20px;
+    top: -3px;
+    
+}
+
+
+h1{
+    
+    position: absolute;
+    left: 25%;
+    top: 33%;
+    font-size: 50px;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+.aArteDeConsertar{
+    
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-size: 50px;
+}
+
+
+
+/* -------- Main--------- */
+main{
+    width: 100%;
+    margin-top: 150px;
+}
+
+
+
+
+h4{
+
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom:  solid yellow 2px ;
+    width: 500px ;
+    padding-bottom: 10px;
+}
+
+h4:hover{
+    
+    font-size: 30px;
+    
+}
+
+
+.servicosDeCostura{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.cards{
+    background-color: #fce292;
+    padding: 20px;
+    border: solid 2px rgb(252, 226, 146);
+    margin-left: 30px;
+}
+.cards:hover{
+    background-color: rgb(252, 226, 146);
+    border-style: none;
+}
+
+.textoIcones{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button{
+    background-color: transparent;
+    margin-left: 20px;
+    width: 180px;
+    padding: 10px;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto Flex', sans-serif;
+    border: 1px solid black;
+    
+}
+button:hover{
+    background-color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.sobreaLoja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+article{
+    margin-left: 15%;
+}
+.textMain{
+    
+    
+    width: 50%;
+}
+
+.textMain > h2,.textoSobreLoja,.linkSobre{
+    
+    width: 50%;
+
+}
+h2{
+    margin: 20px ;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+    min-width: 500px;
+    
+
+}
+
+
+.textoSobreLoja{
+    padding: 20px;
+    font-weight: bold;
+    min-width: 500px;
+}
+
+.linkSobre{
+    
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+.linkSobre2{
+    border: 1px solid black;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fce292 ;
+    
+
+}
+
+
+.linkSobre2:hover{
+    
+    
+    
+    position: relative;
+    top: -10px;
+    box-shadow:0 2px 2px #666
+    
+}
+
+.localizacaoText{
+    font-weight: bold;
+    text-align: center;
+    margin:  0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom:  solid yellow 2px ;
+    width: 500px ;
+    padding-bottom: 10px;
+    
+}
+.localizacaoText:hover{
+    border-style: none;
+    position: relative;
+    top: -10px ;
+    box-shadow:0 2px 2px #666
+}
+
+.mapaDaLoja{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+iframe{
+    width: 100%;
+}
+
+/*----------Footer---------*/
+
+footer{
+    flex-direction: row;
+    display: flex;
+    height: 250px;
+    border-top: 1px solid black;
+    margin-top: 200px;
+    
+}
+
+.telefone, .horarioDeFuncionamento{
+    margin: 100px auto auto;
+}
+
+
+.iconesFacebookInstagram > a{
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,128 @@
+@media only screen and (min-width: 460px) and (max-width:1261px) {
+    
+    body{
+        
+    }
+    .sobreaLoja{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        margin: 0 auto;
+        
+        
+        
+        
+    }
+    .servicosDeCostura{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 2em;
+        margin: 0 auto;
+        padding-left: 70px;
+        padding-right: 70px;
+        
+        
+        
+    }
+    article > img{
+        display: none;
+    }
+
+    h2{
+        text-align: left;
+        word-spacing: 10px;
+        
+    }
+
+    
+    
+
+    .textMain > h2, .textoSobreLoja, .linkSobre{
+        margin-left: 20px;
+        padding: 0px;
+        text-align: left;
+    }
+
+
+    .textMain{
+        
+        margin: 0 auto;
+        width: 400px;
+        padding-bottom: 2em;
+        border: 1px solid rgb(255, 225, 135);
+    }
+    .textoSobreLoja{
+        min-width: 350px;
+        text-align: left;
+        
+    }
+    .linkSobre{
+        
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 45px;
+        
+    }
+
+    .cards{
+        width: 230px;
+        margin: 0 auto;
+        
+        
+    }
+  .servicosDeCostura > div{
+      margin-top: 20px;
+  }
+
+
+  h4{
+      width: 300px;
+  }
+
+  .mapaDaLoja{
+    margin-left: 12px;
+    width: 100%;
+  }
+
+  .localizacaoText{
+      width: 300px;
+  }
+}
+
+@media only screen and (min-width: 2500px) and (max-width:2600px){
+    .cards{
+        margin-right: 70px;
+        margin-top: 80px;
+    }
+
+    
+
+    article{
+        
+        margin-left: 700px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width:950px){
+    
+    
+    li{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .servicosDeCostura{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin: 0 auto;
+        
+        
+        
+        
+    }
+}
